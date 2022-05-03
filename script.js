@@ -1,1 +1,2 @@
-<button onclick="alert('Hello World')">Click Me</button>;
+const btn = document.querySelector("#btn");
+btn.onclick = () => alert("Hello World!");
